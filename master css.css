@@ -1,0 +1,19 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("ansumansvg_project1.jpg");
+  background-size: cover;
+}
+.background .cloud {
+  position: absolute;
+  background-image: url("ansumansvg_projectsvg.png");
+  background-size: cover;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  filter: url("#turbulence");
+}
